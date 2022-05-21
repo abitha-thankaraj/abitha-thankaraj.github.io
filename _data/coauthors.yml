@@ -1,18 +1,11 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Pinto":
+  - firstname: ["Lerrel", "L.", "L. P.", "Lerrel Pinto"]
+    url: https://www.lerrelpinto.com/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Evans":
+  - firstname: ["Ben", "B.", "B. E.", "Ben Evans"]
+    url: https://bennevans.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Pathari":
+  - firstname: ["Vinod", "V."]
+    url: https://scholar.google.co.in/citations?user=t74GmO8AAAAJ&hl=en
