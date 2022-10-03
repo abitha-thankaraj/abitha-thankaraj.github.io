@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /publications/
 title: publications
@@ -10,4 +10,4 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications-custom">
 {% bibliography -f papers -q @*[selected=true]* %}
-</div>
+</div> -->
