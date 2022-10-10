@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 I am a Masters student in Computer Science at the [Courant Institute of Mathematical Sciences, New York University](https://cs.nyu.edu/home/index.html). Currently, a research assistant at [CILVR](https://wp.nyu.edu/cilvr/) (Computational Intelligence, Learning, Vision and Robotics group), working on robot learning and reinforcement learning advised by [Prof. Lerrel Pinto](https://www.lerrelpinto.com/). 
 
-Previously, I was an Associate at the Investment Banking Division in [Goldman Sachs](https://www.goldmansachs.com/).
+Previously, I was an Associate at the Investment Banking Division in [Goldman Sachs](https://www.goldmansachs.com/). Before that I completed my undergraduate studies in Computer science at [National Institute of Technology, Calicut](http://www.nitc.ac.in/)
  <!-- and [Ben Evans](https://bennevans.github.io/). -->
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
