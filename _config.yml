@@ -15,7 +15,7 @@ footer_text: >
 keywords: resume, robotics, reinforcement-learning, machine-learning, research  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🥷🏾 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://abitha-thankaraj.github.io # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
@@ -56,7 +56,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: abitha-thankaraj
 gitlab_username: # your GitLab user name
-twitter_username: _1um0s_
+twitter_username: abitha___
 linkedin_username: abitha-thankaraj
 scholar_userid: ozaKHIIAAAAJ
 orcid_id: # your ORCID ID
