@@ -13,14 +13,16 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a researcher at New York University’s [CILVR](https://wp.nyu.edu/cilvr/) group working on representation learning and reinforcement learning for robotics. I am fortunate to be advised by [Prof. Lerrel Pinto](https://www.lerrelpinto.com/). 
 
+I am a first year PhD student in the [Robotics Institute](https://www.ri.cmu.edu/) at the [School of Computer Science, Carnegie Mellon University](https://www.cs.cmu.edu/) advised by [Yonatan Bisk](https://yonatanbisk.com) and [Aviral Kumar](https://aviralkumar2907.github.io).
 
-<!-- I am a Masters student in Computer Science at the [Courant Institute of Mathematical Sciences, New York University](https://cs.nyu.edu/home/index.html). Currently, a research assistant at [CILVR](https://wp.nyu.edu/cilvr/) (Computational Intelligence, Learning, Vision and Robotics group), working on robot learning and reinforcement learning advised by [Prof. Lerrel Pinto](https://www.lerrelpinto.com/).  -->
+<!-- In my spare time, I enjoy swimming, jiu jitsu, folding origami and reading. -->
+
+<!--I am a researcher at New York University’s [CILVR](https://wp.nyu.edu/cilvr/) group working on representation learning and reinforcement learning for robotics. I am fortunate to be advised by [Prof. Lerrel Pinto](https://www.lerrelpinto.com/). 
+I am a Masters student in Computer Science at the [Courant Institute of Mathematical Sciences, New York University](https://cs.nyu.edu/home/index.html). Currently, a research assistant at [CILVR](https://wp.nyu.edu/cilvr/) (Computational Intelligence, Learning, Vision and Robotics group), working on robot learning and reinforcement learning advised by [Prof. Lerrel Pinto](https://www.lerrelpinto.com/).  -->
 <!-- 
 Previously, I was an Associate at [Goldman Sachs](https://www.goldmansachs.com/). Before that, I completed my undergraduate degree in Computer Science at the [National Institute of Technology, Calicut](http://www.nitc.ac.in/). -->
 
-In my spare time, I enjoy swimming, jiu jitsu, folding origami and reading.
  <!-- and [Ben Evans](https://bennevans.github.io/). -->
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
