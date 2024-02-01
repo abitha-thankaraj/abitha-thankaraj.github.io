@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a first year PhD student at the [Robotics Institute](https://www.ri.cmu.edu/) in the [School of Computer Science, Carnegie Mellon University](https://www.cs.cmu.edu/), advised by [Yonatan Bisk](https://yonatanbisk.com) and [Aviral Kumar](https://aviralkumar2907.github.io). I am broadly interested in learning from interactions. I was introduced to the joys of machine learning and robotics research during my master's degree at New York University by [Lerrel Pinto](https://www.lerrelpinto.com). Before that, I was an associate at Goldman Sachs. Even before that, I was an undergrad at the [National Institute of Technology, Calicut](https://nitc.ac.in/).
+I am a first year PhD student at the [Robotics Institute](https://www.ri.cmu.edu/) in the [School of Computer Science, Carnegie Mellon University](https://www.cs.cmu.edu/), advised by [Yonatan Bisk](https://yonatanbisk.com) and [Aviral Kumar](https://aviralkumar2907.github.io). I am broadly interested in learning from interactions. I was introduced to the joys of machine learning and robotics research during my master's degree at [New York University](https://www.nyu.edu/) by [Lerrel Pinto](https://www.lerrelpinto.com). Before that, I was an associate at Goldman Sachs. Even before that, I was an undergrad at the [National Institute of Technology, Calicut](https://nitc.ac.in/).
 
 
 
