@@ -9,11 +9,7 @@ layout: default
            {% if site.title == "blank" -%} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
         </header>
-        <div class="social">
-          <div class="contact-icons">
-            {% include social.html %}
-          </div>
-      </div>
+
         <article>
 
           {% if page.profile -%}
@@ -38,5 +34,11 @@ layout: default
           </div>
 
         </article>
+
+        <div class="social">
+          <div class="contact-icons">
+            {% include social.html %}
+          </div>
+      </div>
 
 </div>
