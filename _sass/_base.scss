@@ -239,9 +239,9 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
   .contact-icons {
-    font-size: 2rem;
+    font-size: 1.2rem;
     a {
       i::before {
         color: var(--global-text-color);

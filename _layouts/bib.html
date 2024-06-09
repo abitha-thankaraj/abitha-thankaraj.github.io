@@ -2,15 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <!-- <div class="col-sm-2 abbr">
-          {%- if entry.abbr -%}
-            {%- if site.data.venues[entry.abbr] -%}
-            <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
-            {%- else -%}
-            <abbr class="badge">{{entry.abbr}}</abbr>
-            {%- endif -%}
-          {%- endif -%}
-          </div> -->
+
 
           <div class=" {% if entry.preview %}col-md-4 preview{% else %}  abbr{% endif %}">
             {%- if entry.preview -%}
@@ -32,11 +24,6 @@
             {%- endif -%}
             </div>
 
-
-          <!-- <div class="col-md-4 preview">
-            <img class="preview z-depth-1 rounded" src="/assets/img/iida-gif.gif">
-          
-          </div> -->
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
