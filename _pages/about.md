@@ -14,6 +14,4 @@ permalink: /
 
 I am a PhD student at the [School of Computer Science, Carnegie Mellon University](https://www.cs.cmu.edu/), advised by [Yonatan Bisk](https://yonatanbisk.com). During my master's program at the [Courant Institute of Mathematical Sciences, New York University](https://cims.nyu.edu), I was introduced to the joys of machine learning and robotics research by [Lerrel Pinto](https://www.lerrelpinto.com). 
 
-
-Before that, I was an associate at Goldman Sachs. Even before that, I was an undergrad in computer science at the [National Institute of Technology, Calicut](https://nitc.ac.in/).
-
+Before graduate studies, I was an associate at Goldman Sachs and completed my bachelor's degree in Computer Science at the [National Institute of Technology, Calicut](https://nitc.ac.in/).
