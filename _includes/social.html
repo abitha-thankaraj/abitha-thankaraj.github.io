@@ -32,3 +32,7 @@
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl | prepend: site.url }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
+            
+            {%- if site.cv -%}
+            <a href="{{ site.baseurl | prepend: site.url }}/assets/pdf/AT_Resume_Research_24.pdf" title="CV"><i class="fas fa-file-pdf"></i></a>
+            {% endif %}
