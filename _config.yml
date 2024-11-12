@@ -68,6 +68,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
+cv: true
 
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
