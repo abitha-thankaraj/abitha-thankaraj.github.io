@@ -5,7 +5,8 @@ permalink: /
 # subtitle:
 #  <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
-# profile:
+profile:
+  address: athankar@cs.cmu.edu
 #   align: right
 #   image: pic.jpeg
 
