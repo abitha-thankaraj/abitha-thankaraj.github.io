@@ -65,6 +65,36 @@
       cursor: crosshair;
     }
 
+    .site-footer-art {
+      position: relative;
+      height: clamp(8rem, 24vw, 11rem);
+      margin-top: 2rem;
+      pointer-events: none;
+    }
+
+    .site-footer-art::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: min(100%, 42rem);
+      aspect-ratio: 1376 / 445;
+      background: url("./assets/dachshund-footer-transparent.png") right bottom / contain no-repeat;
+      opacity: 0.14;
+    }
+
+    @media (max-width: 36rem) {
+      .site-footer-art {
+        height: 8rem;
+      }
+
+      .site-footer-art::after {
+        right: -8%;
+        width: 112%;
+        opacity: 0.11;
+      }
+    }
+
   </style>
 </head>
 
@@ -147,6 +177,8 @@
       </div>
     </li> -->
   </ul>
+
+  <footer class="site-footer-art" aria-hidden="true"></footer>
 
 </body>
 </html>
