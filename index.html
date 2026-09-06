@@ -1,152 +1,214 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!-- Meta -->
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Abitha Thankaraj</title>
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
 
-  <!-- Style -->
-  <style type="text/css">
-    
+  <style>
     :root {
-    --color-accent: #107d7d;
+      --accent: #107d7d;
+      --text: #161818;
+      --muted: #687272;
+      --rule: #e4eaea;
+    }
+
+    * {
+      box-sizing: border-box;
     }
 
     body {
-      margin: 1em auto;
-      max-width: 40em;
-      font-size: .85em;
-      line-height: 1.5;
-      font-family: Courier;
+      margin: 0;
+      color: var(--text);
+      background: #fff;
+      font-family: "Reddit Mono", ui-monospace, monospace;
+      font-size: 1rem;
+      line-height: 1.55;
+    }
+
+    main {
+      width: 100%;
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 5rem 1.25rem;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
     }
 
     h1 {
-      line-height: 0.9;
-      font-family: "Reddit Mono";
-      padding-bottom: 0em;
-      display: inline-block;
-      margin-bottom: 0.3em;
-    }
-
-    h2 {
-      line-height: 0.9;
-      font-family: "Reddit Mono";
-    }
-    
-    div.title {
-      font-weight: bold;
-    }
-
-    .highlight {
-      color: var(--color-accent);
-    }
-    
-    li {
-      margin: 1em auto;
+      margin: 0 0 0.35rem;
+      font-size: 1rem;
       line-height: 1.5;
+      font-weight: 650;
+    }
+
+    nav,
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.75rem;
+      font-size: 0.875rem;
     }
 
     a {
-      color: var(--color-accent);
-      text-decoration: none;
-      font-weight: normal;
-    }
-    a:hover, 
-    a:focus {
-      text-decoration: underline;
-      font-weight: bold;
-      cursor: crosshair;
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.18em;
     }
 
+    a:hover,
+    a:focus-visible {
+      text-decoration-thickness: 2px;
+    }
+
+    .intro {
+      margin: 0 0 4rem;
+    }
+
+    h2 {
+      margin: 0;
+      padding-bottom: 0.625rem;
+      border-bottom: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 0.875rem;
+      line-height: 1.5;
+      font-weight: 500;
+    }
+
+    .papers {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .paper {
+      padding: 1.125rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .title,
+    strong {
+      font-weight: 650;
+    }
+
+    .authors,
+    .venue {
+      margin-top: 0.25rem;
+    }
+
+    .venue {
+      color: var(--muted);
+    }
+
+    .links {
+      margin-top: 0.5rem;
+    }
+
+    .highlight {
+      color: var(--accent);
+    }
+
+    @media (max-width: 34rem) {
+      main {
+        padding: 2.5rem 1.125rem;
+      }
+
+      header {
+        margin-bottom: 2rem;
+      }
+
+      .intro {
+        margin-bottom: 3rem;
+      }
+
+      .paper {
+        padding: 1rem 0;
+      }
+    }
   </style>
 </head>
 
 <body>
-  <br><br>
-  <h1>Abitha Thankaraj</h1>
-  <div>
-    <a href="https://github.com/abitha-thankaraj">[GitHub]</a>
-    <a href="https://scholar.google.com/citations?user=ozaKHIIAAAAJ">[Scholar]</a>
-    <a href="https://twitter.com/abitha___">[X]</a>
-    <a href="https://drive.google.com/file/d/1OdWvxikuuTPLHSXF6HXgH5hdcoiimKkd/view?usp=sharing">[CV]</a>
-  </div>
-<p>
-  
-  I am a PhD student at Carnegie Mellon University, advised by <a href="https://yonatanbisk.com">Yonatan Bisk</a> and <a href="https://zicokolter.com/">Zico Kolter</a>. I work on representation learning and sequential decision making. <br><br>
-  <!-- Previously, I worked with <a href="https://www.lerrelpinto.com">Lerrel Pinto</a> at New York University on robotics and machine learning. -->
-  <!-- Previously, I worked with <a href="https://www.lerrelpinto.com">Lerrel Pinto</a> at New York University on robotics and machine learning. Before that, I was an associate at Goldman Sachs. -->
-</p>
-  <h2>Selected Papers</h2>
-  <ul>
-    <li>
-      <div class="title">Synthetic Data and the Rise of Spiky Intelligence</div>
-      <div><b>Abitha Thankaraj</b>,et al - DataologyAI.</div>
-      <div>Preprint, 2026</div>
-      <div>
-        <a href="https://drive.google.com/file/d/1tecC8vJpOEIKeRyagmIqIahK_Cg-OfME/view">[preprint]</a>
-      </div>
-    </li>
+  <main>
+    <header>
+      <h1>Abitha Thankaraj</h1>
+      <nav aria-label="Profiles and documents">
+        <a href="https://github.com/abitha-thankaraj">[GitHub]</a>
+        <a href="https://scholar.google.com/citations?user=ozaKHIIAAAAJ">[Scholar]</a>
+        <a href="https://twitter.com/abitha___">[X]</a>
+        <a href="https://drive.google.com/file/d/1OdWvxikuuTPLHSXF6HXgH5hdcoiimKkd/view?usp=sharing">[CV]</a>
+      </nav>
+    </header>
 
-    <li>
-      <div class="title">Looking beyond the next token</div>
-      <div><b>Abitha Thankaraj*</b>, Yiding Jiang*, J. Zico Kolter, Yonatan Bisk</div>
-      <div>Workshop on Long-Context Foundation Models (ICML), 2025</div>
-      <div>
-        <a href="https://arxiv.org/abs/2504.11336">[arXiv]</a>
-        <!-- <a href="https://openreview.net/forum?id=VjXDViBcsM">[OpenReview]</a> -->
-      </div>
-    </li>
+    <p class="intro">
+      I am a PhD student at Carnegie Mellon University, advised by
+      <a href="https://yonatanbisk.com">Yonatan Bisk</a> and
+      <a href="https://zicokolter.com/">Zico Kolter</a>. I work on representation
+      learning and sequential decision making.
+    </p>
 
-    <li>
-      <div class="title">Training a Generally Curious Agent</div>
-      <div>Fahim Tajwar*, Yiding Jiang*, <b>Abitha Thankaraj</b>, Sumaita Sadia Rahman, J. Zico Kolter, Jeff Schneider, Ruslan Salakhutdinov</div>
-      <div>International Conference on Machine Learning (ICML), 2025 <b class="highlight">(Oral)</b></div>
-      <div>
-        <a href="https://arxiv.org/abs/2502.17543">[arXiv]</a>
-        <a href="https://github.com/tajwarfahim/paprika">[code]</a>
-        <a href="https://paprika-llm.github.io/">[website]</a>
-      </div>
-    </li>
+    <section aria-labelledby="papers-heading">
+      <h2 id="papers-heading">Selected Papers</h2>
 
-    <li>
-      <div class="title">That Sounds Right: Auditory Self-Supervision for Dynamic Robot Manipulation</div>
-      <div><b>Abitha Thankaraj</b>, Lerrel Pinto</div>
-      <div>Conference on Robot Learning (CoRL), 2023</div>
-      <div>
-        <a href="https://arxiv.org/abs/2210.01116">[arXiv]</a>
-        <a href="https://github.com/abitha-thankaraj/audio-robot-learning">[code]</a>
-        <a href="https://audio-robot-learning.github.io/">[website]</a>
-      </div>
-    </li>
+      <ul class="papers">
+        <li class="paper">
+          <div class="title">Synthetic Data and the Rise of Spiky Intelligence</div>
+          <div class="authors"><strong>Abitha Thankaraj</strong>, et al. — DataologyAI</div>
+          <div class="venue">Preprint, 2026</div>
+          <div class="links">
+            <a href="https://drive.google.com/file/d/1tecC8vJpOEIKeRyagmIqIahK_Cg-OfME/view">[preprint]</a>
+          </div>
+        </li>
 
-    <li>
-      <div class="title">Context is Everything: Implicit Identification for Dynamics Adaptation</div>
-      <div>Ben Evans, <b>Abitha Thankaraj</b>, Lerrel Pinto</div>
-      <div>IEEE International Conference on Robotics and Automation (ICRA), 2022</div>
-      <div>
-        <a href="https://arxiv.org/abs/2203.05549">[arXiv]</a>
-        <a href="https://github.com/bennevans/iida">[code]</a>
-        <a href="https://bennevans.github.io/iida/">[website]</a>
-      </div>
-    </li>
+        <li class="paper">
+          <div class="title">Looking beyond the next token</div>
+          <div class="authors"><strong>Abitha Thankaraj*</strong>, Yiding Jiang*, J. Zico Kolter, Yonatan Bisk</div>
+          <div class="venue">Workshop on Long-Context Foundation Models (ICML), 2025</div>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2504.11336">[arXiv]</a>
+          </div>
+        </li>
 
-    <!-- <li>
-      <div class="title">RB2: Robotic Manipulation Benchmarking with a Twist</div>
-      <div>Sudeep Dasari, Jianren Wang, Joyce Hong, Shikhar Bahl, Yixin Lin, Austin S. Wang, <b>Abitha Thankaraj</b>, Karanbir Singh Chahal, Berk Calli, Saurabh Gupta, David Held, Lerrel Pinto, Deepak Pathak, Vikash Kumar, Abhinav Gupta</div>
-      <div>NeurIPS Datasets and Benchmarks Track, 2021</div>
-      <div>
-        <a href="https://arxiv.org/abs/2203.08098">[arXiv]</a>
-        <a href="https://agi-labs.github.io/rb2/">[website]</a>
-      </div>
-    </li> -->
-  </ul>
+        <li class="paper">
+          <div class="title">Training a Generally Curious Agent</div>
+          <div class="authors">Fahim Tajwar*, Yiding Jiang*, <strong>Abitha Thankaraj</strong>, Sumaita Sadia Rahman, J. Zico Kolter, Jeff Schneider, Ruslan Salakhutdinov</div>
+          <div class="venue">International Conference on Machine Learning (ICML), 2025 <strong class="highlight">(Oral)</strong></div>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2502.17543">[arXiv]</a>
+            <a href="https://github.com/tajwarfahim/paprika">[code]</a>
+            <a href="https://paprika-llm.github.io/">[website]</a>
+          </div>
+        </li>
 
+        <li class="paper">
+          <div class="title">That Sounds Right: Auditory Self-Supervision for Dynamic Robot Manipulation</div>
+          <div class="authors"><strong>Abitha Thankaraj</strong>, Lerrel Pinto</div>
+          <div class="venue">Conference on Robot Learning (CoRL), 2023</div>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2210.01116">[arXiv]</a>
+            <a href="https://github.com/abitha-thankaraj/audio-robot-learning">[code]</a>
+            <a href="https://audio-robot-learning.github.io/">[website]</a>
+          </div>
+        </li>
+
+        <li class="paper">
+          <div class="title">Context is Everything: Implicit Identification for Dynamics Adaptation</div>
+          <div class="authors">Ben Evans, <strong>Abitha Thankaraj</strong>, Lerrel Pinto</div>
+          <div class="venue">IEEE International Conference on Robotics and Automation (ICRA), 2022</div>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2203.05549">[arXiv]</a>
+            <a href="https://github.com/bennevans/iida">[code]</a>
+            <a href="https://bennevans.github.io/iida/">[website]</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
